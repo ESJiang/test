@@ -8,7 +8,7 @@
 //new日期对象
 Date date = new Date();
 SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:sss");
-String logfile = "/root/msg_get.txt";
+String logfile = "/log.txt";
 String time_stamp = dateFormat.format(date);
 String cookie = URLDecoder.decode(request.getParameter("msg"), "UTF-8"); 
  
